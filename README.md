@@ -1,6 +1,6 @@
 # Alphanumeric Phone Number Generator App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+Simple angular application that generates alphanumeric phone-number based in input provided.
 
 ## Run the application
 
