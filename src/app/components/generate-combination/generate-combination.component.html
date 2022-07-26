@@ -1,0 +1,14 @@
+<form [formGroup]="numberGeneratorForm" (ngSubmit)="onSubmit()">
+  <h2>Generate Combinations</h2>
+  <label for="first-name">Enter Phone Number: </label>
+  <input id="first-name" type="text" formControlName="phoneNumber" required>
+  <div *ngIf="f['phoneNumber'].touched && f['phoneNumber'].invalid" class="mat-error">
+    <div *ngIf="f['phoneNumber'].errors && f['phoneNumber'].errors['required']">Phone Number is required.</div>
+    <div *ngIf="f['phoneNumber'].errors && f['phoneNumber'].errors['pattern']">Phone Number should be of length 7 or 10 and contain digits from 0-9.</div>
+  </div>
+  <button type="submit" [disabled]="!numberGeneratorForm.valid">Submit</button>
+</form>
+
+<div *ngIf="submitted">
+  <app-combination-table></app-combination-table>
+</div>
