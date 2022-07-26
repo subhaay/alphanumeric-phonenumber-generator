@@ -26,7 +26,7 @@ Run `ng serve` for a local dev server. The default port is 4200. Navigate to `ht
 ![Validation](/images/validation_error.png?raw=true "Incorrect Data Validation")
 
 ## Valid Input
-![Valid Input](/images/incorrectResult.png?raw=true "Valid Phone Number")
+![Valid Input](/images/valid_phonenumber.png?raw=true "Valid Phone Number")
 
 ## Loading Result
 ![Loading Result](/images/loading_screen.png?raw=true "Loading Screen")
@@ -37,10 +37,12 @@ Run `ng serve` for a local dev server. The default port is 4200. Navigate to `ht
 ## Running unit tests
 
 Run `ng test` to execute the unit tests.
+
 ![Unit Test](/images/unit_tests.png?raw=true "Loading Screen")
 
 ## Code Coverage
 Run `ng test --code-coverage` to execute the unit tests.
+
 ![Code Coverage](/images/code_coverage.png?raw=true "Loading Screen")
 
 ## Overall Application
